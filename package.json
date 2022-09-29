@@ -1,0 +1,24 @@
+{
+  "name": "selenium-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hangocmy/selenium-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hangocmy/selenium-tutorial/issues"
+  },
+  "homepage": "https://github.com/hangocmy/selenium-tutorial#readme",
+  "dependencies": {
+    "chromedriver": "^105.0.1",
+    "geckodriver": "^3.0.2",
+    "selenium-webdriver": "^4.4.0"
+  }
+}
