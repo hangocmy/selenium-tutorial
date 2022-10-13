@@ -13,11 +13,9 @@ options.add_experimental_option("detach", True)
 driver = webdriver.Chrome(options=options, service=service)
 
 # login
-driver.get("https://idbeauty-staging.idtek.com.vn/")
+driver.get("https://www.tutorialspoint.com/selenium/selenium_automation_practice.htm")
 
-username = driver.find_element(By.XPATH, "//input[@id='Username']")
-
-#username.send_keys("auto.test")
-#username.send_keys(Keys.RETURN)
-
-#driver.close()
+username = driver.find_element(By.NAME, "firstname")
+username.send_keys("hangcomy")
+username.send_keys(Keys.RETURN)
+driver.quit()
