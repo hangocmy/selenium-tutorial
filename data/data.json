@@ -1,0 +1,10 @@
+{
+  "forgot_password": {
+    "success_message": "A reset link has been sent to the email address, if it has been used to register for an account.",
+    "error_message": "We can't find a user with that e-mail address."
+  },
+  "login": {
+    "firstname": "Ngoc My",
+    "lastname": "Ha"
+  }
+}
